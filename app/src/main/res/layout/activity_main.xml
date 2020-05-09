@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Aircraft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:text="Aircrafts"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/Helicopter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helicopters"
+        android:layout_gravity="center"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/Tank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanks"
+        android:layout_gravity="center"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/Ship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ships"
+        android:layout_gravity="center"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/ld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="loading..."
+        android:layout_gravity="center"
+        android:layout_marginTop="@android:dimen/app_icon_size"/>
+
+</LinearLayout>
